@@ -10,10 +10,10 @@ public class AreaRetangulo {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Base value: ");
-        Double base = input.nextDouble();
+        var base = input.nextDouble();
 
         System.out.print("Height value: ");
-        Double height = input.nextDouble();
+        var height = input.nextDouble();
 
         Double area = base * height;
 

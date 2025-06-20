@@ -9,10 +9,10 @@ public class YearName {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Write your name: ");
-        String name = input.nextLine();
+        var name = input.nextLine();
 
         System.out.print("Write your age: ");
-        int age = input.nextInt();
+        var age = input.nextInt();
 
         System.out.println("Hello, " + name + "! You have " + age + " years.");
 

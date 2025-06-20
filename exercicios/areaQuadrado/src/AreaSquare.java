@@ -9,8 +9,8 @@ public class AreaSquare {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Value of the side of the square: ");
-        Double sideValue = input.nextDouble();
-        Double potencia = 2.00;
+        var sideValue = input.nextDouble();
+        var potencia = 2.00;
 
         Double areaSquare = Math.pow(sideValue, potencia);
 

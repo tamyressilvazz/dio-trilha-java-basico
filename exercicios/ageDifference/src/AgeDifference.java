@@ -10,15 +10,15 @@ public class AgeDifference {
 
         // first person
         System.out.print("Name first person: ");
-        String name1 = input.nextLine();
+        var name1 = input.nextLine();
         System.out.print("Age first person: ");
-        int age1 = input.nextInt();
+        var age1 = input.nextInt();
 
         // second person
         System.out.print("Name second person: ");
-        String name2 = input.nextLine();
+        var name2 = input.nextLine();
         System.out.print("Age second person: ");
-        int age2 = input.nextInt();
+        var age2 = input.nextInt();
 
         if (age1 > age2) {
             int ageDifference = age1 - age2;
