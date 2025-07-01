@@ -22,10 +22,10 @@ public class AgeDifference {
 
         if (age1 > age2) {
             int ageDifference = age1 - age2;
-            System.out.println("The difference between " + name1 + name2 + " is: " + ageDifference);
+            System.out.printf("The difference between %sname1 + %sname2 is: %dageDifference", name1, name2, ageDifference);
         }else if (age2 > age1) {
             int ageDifference = age2 - age1;
-            System.out.println("The difference between " + name2 + name1 + " is: " + ageDifference);
+            System.out.printf("The difference between %sname2 + %sname1 is: %dageDifference", name2, name1, ageDifference);
         } else {
             System.out.println("Don't exist difference between the two ages.");
         }

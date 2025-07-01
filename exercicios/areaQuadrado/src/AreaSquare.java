@@ -14,7 +14,7 @@ public class AreaSquare {
 
         Double areaSquare = Math.pow(sideValue, potencia);
 
-        System.out.println(areaSquare + " = " + sideValue + " X " + sideValue);
+        System.out.printf("%fareaSquare = %fsideValue X %fsideValue", areaSquare, sideValue, sideValue);
 
         input.close();
     }

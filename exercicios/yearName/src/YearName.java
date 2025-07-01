@@ -14,7 +14,7 @@ public class YearName {
         System.out.print("Write your age: ");
         var age = input.nextInt();
 
-        System.out.println("Hello, " + name + "! You have " + age + " years.");
+        System.out.printf("Hello, %sname! You have %dage years.", name, age);
 
         input.close();
     }

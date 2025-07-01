@@ -17,7 +17,7 @@ public class AreaRetangulo {
 
         Double area = base * height;
 
-        System.out.println(area + " = " + base + " X " + height);
+        System.out.printf("%farea = %fbase X %fheight", area, base, height);
 
         input.close();
     }
