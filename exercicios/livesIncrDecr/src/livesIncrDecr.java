@@ -1,4 +1,4 @@
-public class App {
+public class livesIncrDecr {
     public static void main(String[] args) throws Exception {
             // Initial values
             int points = 5;
